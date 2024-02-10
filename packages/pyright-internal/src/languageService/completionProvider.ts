@@ -3212,7 +3212,7 @@ export class CompletionMap {
                 items.push(value);
             }
         });
-        return items.slice(0, 15);
+        return items.slice(0, 10);
     }
 
     static matchKindAndImportText(
